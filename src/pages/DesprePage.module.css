@@ -1,0 +1,75 @@
+.telephone a {
+  color: #2f30cf;
+  padding-left: 1rem;
+  text-decoration: none;
+}
+
+.titles {
+  padding: 1rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.form {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.form .block img {
+  float: right;
+  padding-left: 1rem;
+  width: 50%;
+  height: 60%;
+}
+
+.text {
+  margin-top: 1%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.form .block2 img {
+  float: left;
+  width: 25%;
+  height: 30%;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+
+.form .block3 img {
+  float: right;
+  width: 15%;
+  height: 10%;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+.form .block4 img {
+  margin-left: 10%;
+  float: left;
+  width: 10%;
+  height: 10%;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+.form .block5 img {
+  margin-right: 10%;
+  float: right;
+  width: 15%;
+  height: 10%;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+}

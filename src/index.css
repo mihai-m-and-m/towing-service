@@ -1,0 +1,146 @@
+/* BASIC SETUP */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+picture {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #dfdfdf;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+.container {
+  padding-inline: 2em;
+  max-width: 80rem;
+}
+
+/* END OF BASIC */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 0.9em;
+  }
+  h2 {
+    font-size: 0.7em;
+  }
+  h4 {
+    font-size: 0.3em;
+  }
+}
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+}
+
+h1,
+h2 {
+  color: #000000;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #2f30cf;
+  color: white;
+  border: 1px solid #2f30cf;
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  background-color: #2f30cf;
+  border-color: #2f30cf;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #2f30cf;
+}
+
+.btn--alt:hover {
+  background-color: #2f30cf;
+  border-color: #ffffff;
+  color: white;
+}
+
+.mini-logos {
+  margin-bottom: 5%;
+  align-items: center;
+}
